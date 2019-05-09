@@ -1,0 +1,23 @@
+{
+  "name": "momo",
+  "version": "1.0.0",
+  "description": "Tool to help you Momo your friends",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "momo"
+  ],
+  "author": "Tim Holt",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "wallpaper": "^4.4.0"
+  },
+  "bin": "app/index.js",
+  "pkg": {
+    "scripts": "app/*.js",
+    "assets": "app/image/*"
+  }
+}
